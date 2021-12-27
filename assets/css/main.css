@@ -28,7 +28,6 @@ section, summary, time, mark, audio, video {
 }
 
 .container {
-  
   padding-bottom: 41.026%;
   position: relative;
 }
@@ -39,6 +38,21 @@ section, summary, time, mark, audio, video {
   position: absolute;
   top: 0;
   object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.container2 {
+  padding-bottom: 88.198%;
+  position: relative;
+}
+
+.container2 img {
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 0;
+  object-fit: contain;
   height: 100%;
   width: 100%;
 }
@@ -1254,6 +1268,7 @@ input[type="radio"] + label:before {
   .image.fit {
     display: block;
     margin: 0 0 2em 0;
+    object-fit: contain;
     width: 100%; }
     .image.fit img {
       width: 100%; }
